@@ -1,10 +1,12 @@
 import './App.css';
 import Nav from './component/Nav'
+import Login from './component/Login';
 
 function App() {
   return (
     <div>
-      <Nav/>
+      {/* <Nav/> */}
+      <Login/>
     </div>
   );
 }

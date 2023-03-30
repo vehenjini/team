@@ -1,0 +1,143 @@
+/* 공통컬러 속성지정  */
+:root {
+  --font-inter: "noto";
+  --blue-color: #4b4eba;
+  --yellow-color: #f0c648;
+  --skyblue-color: #afe0fe;
+  --border-color: #d9d9d9;
+}
+
+/* 폰트 전체 사이즈를 html에 선언 */
+html {
+  font-size: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: var(--blue-color);
+}
+
+.main-logo img {
+  width: 5rem;
+}
+
+.login {
+  width: 100%;
+  max-width: 768px;
+  height: 100vh;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  border-radius : 5px;
+  padding: 16px;
+}
+
+.container p {
+  font-size: .02rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.container p :last-child {
+  margin-bottom: 0;
+}
+
+.container input {
+  padding-left: 20px;
+}
+
+.main-logo{
+ margin: 100px;
+}
+
+#sign-in {
+  width: 100%;
+  background-color: var(--skyblue-color);
+  border-color: transparent;
+  color: #fff;
+}
+
+.account {
+  width: 12rem;
+  height: 2rem;
+  display: block;
+  border: none;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#alert {
+  border-color: transparent;
+  display: none;
+}
+
+.social {
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.social h5, h6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #909090;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.social-btn-bar button {
+  width: 30%;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.social-btn-bar button img {
+  width: 50%;
+  padding: 2%;
+}
+
+
+.a {
+  /* 폰트 속성지정 */
+  font-family: var(--font-inter);
+  /* 컬러 꺼내쓰기 */
+  color: var(--blue-color);
+  /* font-size: 30px; */
+  /* html에서 선언한 20px * 1.5 = 30px */
+  /* 즉 30px로 사용하고 싶으면 1.5rem으로 사용 */
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.b {
+  font-family: var(--font-inter);
+  /* 18px */
+  font-size: 0.9rem
+
+}
+
+.c {
+  font-family: var(--font-inter);
+  /* 16px */
+  font-size: 0.8rem;
+  font-weight: bold; 
+}
+
+.d {
+  font-family: var(--font-inter);
+  /* 16px */
+  font-size: 0.8rem;
+}
